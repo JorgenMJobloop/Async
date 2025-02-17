@@ -9,14 +9,10 @@ class Program
     static async Task Main(string[] args)
     {
         ClientClass clientClass = new ClientClass();
-
         await clientClass.Run();
 
+        UserController userController = new UserController();
 
-        void SayHello()
-        {
-            Console.WriteLine("Hello");
-        }
-        SayHello();
+        userController.CreateNewUser();
     }
 }

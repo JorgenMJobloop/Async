@@ -1,0 +1,5 @@
+New users created.
+guid:00000000-0000-0000-0000-000000000000
+username:John Doe
+guid00000000-0000-0000-0000-000000000000
+usernameJohn Smith
